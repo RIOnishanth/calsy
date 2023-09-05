@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calci</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+     <div class="main">
+        <div class="input">
+        <center>
+        <h1><u>Let's try</u></h1>
+        <input type="number" id="num1" placeholder="Number1" required>
+        <br><br>
+        <input type="number" id="num2" placeholder="Number2" required>
+        <br><br>
+        <button onclick="Addition()">Addition</button>
+        <br><br>
+        <button onclick="Subtraction()">Subtraction</button>
+        <br><br>
+        <button onclick="Multiplication()">Multiplication</button>
+        <br><br>
+        <button onclick="Division()">Division</button></div>
+        </center>
+        </div>
+        <div class="output">
+            <center>
+                <h1>Here we go</h1>
+                <h2 style="color:white ;" id="ans1">Addition ans</h2>
+                <h2 style="color:white ;" id="ans2">Subtraction ans</h2>
+                <h2 style="color:white ;" id="ans3">Multiplication ans</h2>
+                <h2 style="color:white ;" id="ans4">Division ans</h2>
+                <script src="./script.js"></script>
+            </center>
+        </div>
+        </div>
+        <center><h3 class="equal" style="color: white; "> = </h1></center>
+</body>
+</html>
